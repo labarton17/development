@@ -1,0 +1,12 @@
+[user]
+	name = Laura Barton
+	email = labarton17@gmail.com
+[merge]
+	tool = extMerge
+[mergetool "extMerge"]
+	cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+	keepTemporaries = false
+	keepBackup = false
+	trustExistCode = false
+[diff]
+	external = extDiff
